@@ -1,0 +1,43 @@
+html{
+    background-color: #0d1117;
+    font-family: "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"
+}
+
+p{
+    color: #e6edf3;
+}
+
+h2{
+    color: #e6edf3;
+}
+
+h1{
+    text-align: center;
+    color: #e6edf3;
+}
+
+li{     
+    color: #e6edf3;
+}
+
+a{
+    text-decoration: none;
+    color: #2f81f7;
+}
+
+ul{
+    list-style: none;
+}
+
+.sectionlists{
+    list-style-type: circle;
+}
+
+#subh1note{
+    text-align: center;
+    font-size: smaller;
+}
+
+#subh1{
+    text-align: center;
+}
