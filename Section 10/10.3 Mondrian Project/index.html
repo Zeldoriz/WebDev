@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mondrian Project</title>
+		<style>
+			/* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+			.grid {
+				width: 748px;
+				height: 757px;
+				display: grid;
+				grid-template: 423px 149px 164px 20px / 329px 207px 162px 50px;
+			}
+
+			.red {
+				grid-area: 1/1/2/2;
+				background-color: #e72f24;
+				border-right: 9px solid black;
+				border-bottom: 9px solid black;
+			}
+
+			.white {
+				background-color: #f0f1ec;
+			}
+
+			.first {
+				border-bottom: 9px solid black;
+				grid-area: 1/2/2/5;
+			}
+
+			.second {
+				border-right: 9px solid black;
+				border-bottom: 9px solid black;
+				grid-area: 2/1/4/2;
+			}
+
+			.third {
+				border-right: 9px solid black;
+				border-bottom: 9px solid black;
+				grid-area: 2/2/4/4;
+			}
+
+			.blue {
+				border-bottom: 19px solid black;
+				background-color: #004592;
+				grid-area: 2/4/3/5;
+			}
+
+			.fourth {
+				grid-area: 3/4/4/5;
+			}
+
+			.fifth {
+				border-right: 9px solid black;
+				grid-area: 4/1/5/2;
+			}
+
+			.yellow {
+				border-right: 9px solid black;
+				background-color: #f9d01e;
+			}
+
+			.black {
+				border-right: 9px solid black;
+				background-color: #232629;
+			}
+
+			.sixth {
+				grid-area: 4/4/5/5;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!-- Write your HTML here -->
+		<div class="grid">
+			<div class="red"></div>
+			<div class="white first"></div>
+			<div class="white second"></div>
+			<div class="white third"></div>
+			<div class="blue"></div>
+			<div class="white fourth"></div>
+			<div class="white fifth"></div>
+			<div class="yellow"></div>
+			<div class="black"></div>
+			<div class="white sixth"></div>
+		</div>
+	</body>
+</html>
