@@ -1,2 +1,2 @@
 # WebDev-Practice
-some practice, i guess
+track record of web development practice
